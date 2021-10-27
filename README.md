@@ -1,10 +1,10 @@
-# Example: Random with Terraform
-
-The "random" provider allows the use of randomness within Terraform configurations. [See documentation](https://registry.terraform.io/providers/hashicorp/random/latest/docs) 
-
-Random_pet resource [See documentation](https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/pet) 
+# Example: random_pet with Terraform
 
 This repository shows an example on how to use the random pet resource 
+
+The "random" provider allows the use of randomness within Terraform configurations. [See documentation](https://registry.terraform.io/providers/hashicorp/random/latest/docs) 
+Random_pet resource [See documentation](https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/pet) 
+
 
 # Prerequisites
 
