@@ -1,7 +1,7 @@
 provider "random" {}
 
-resource "random_pet" "pet1" {}
+resource "random_pet" "pet" {}
 
-output "pet1" {
-  value = random_pet.pet1.id
+output "pet" {
+  value = random_pet.pet.id
 }
