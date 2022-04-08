@@ -14,6 +14,8 @@ resource "random_pet" "anton" {}
 
 resource "random_pet" "lotte" {}
 
+resource "random_pet" "sysan" {}
+
 output "pet1" {
   value = random_pet.pet1.id
 }
