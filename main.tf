@@ -2,7 +2,6 @@ provider "random" {}
 
 resource "random_pet" "pet1" {}
 
-resource "random_pet" "pet2" {}
 
 variable "first_last_name" {
   default = {
