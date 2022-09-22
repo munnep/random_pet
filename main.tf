@@ -31,6 +31,6 @@ output "test" {
 }
 
 resource "null_resource" "test" {
-  count = 100
+  count = 101
 }
 
