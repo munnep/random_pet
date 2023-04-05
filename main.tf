@@ -1,8 +1,5 @@
 provider "random" {}
 
-resource "random_pet" "pet1" {}
-
-
 variable "first_last_name" {
   default = {
     "Jan" : "Janssen",
