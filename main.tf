@@ -14,6 +14,7 @@ module "name_complete" {
   last_name  = each.value
 }
 
+resource "null_resource" "test2" {}
 
 output "pet1" {
   value = random_pet.pet1.id
