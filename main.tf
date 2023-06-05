@@ -15,5 +15,7 @@ module "name_complete" {
 }
 
 resource "null_resource" "test2" {}
+  
+resource "null_resource" "test4" {}
 
 
