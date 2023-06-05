@@ -16,19 +16,4 @@ module "name_complete" {
 
 resource "null_resource" "test2" {}
 
-output "pet1" {
-  value = random_pet.pet1.id
-}
-
-  data "http" "myip" {
-  url = "https://api.ipify.org"
-}
-
-output "test" {
-    value = data.http.myip.body
-}
-
-resource "null_resource" "test" {
-  count = 102
-}
 
