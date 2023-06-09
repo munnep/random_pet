@@ -14,8 +14,3 @@ module "name_complete" {
   last_name  = each.value
 }
 
-resource "null_resource" "test2" {}
-  
-resource "null_resource" "test4" {}
-
-
