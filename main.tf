@@ -10,3 +10,5 @@ resource "null_resource" "test" {}
 
 # for a tag waiting
 resource "null_resource" "test2" {}
+
+resource "null_resource" "test3" {}
