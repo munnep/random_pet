@@ -7,3 +7,6 @@ output "pet" {
 }
 
 resource "null_resource" "test" {}
+
+# for a tag waiting
+resource "null_resource" "test2" {}
